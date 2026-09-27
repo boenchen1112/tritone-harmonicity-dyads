@@ -1,0 +1,16 @@
+external/
+__pycache__/
+*.aux
+*.log
+*.blg
+*.bbl
+*.out
+*.synctex.gz
+
+*_draws.npz
+# fetched or local-only inputs (scripts/fetch_data.sh; recordings are not redistributable)
+core/behavioral_data/
+core/audio_samples/
+
+# optional Word/PDF versions (analysis/make_docx.py)
+rars/

@@ -1,0 +1,129 @@
+{
+  "orientations": {
+    "har_18_harmonicity": -1,
+    "milne_13_harmonicity": -1,
+    "parn_88_root_ambig": 1,
+    "parn_94_complex": -1,
+    "stolz_15_periodicity": 1,
+    "bowl_18_min_freq_dist": -1,
+    "huron_94_dyadic": -1,
+    "hutch_78_roughness": 1,
+    "parn_94_pure": -1,
+    "seth_93_roughness": 1,
+    "vass_01_roughness": 1,
+    "jl_12_tonal": 1,
+    "har_19_corpus": 1,
+    "parn_94_mult": -1,
+    "har_19_composite": -1
+  },
+  "excluded_models": [
+    "gill_09_harmonicity (~98 min/dataset)",
+    "wang_13_roughness (EMD, minutes/chord)"
+  ],
+  "datasets": {
+    "bowling2018": {
+      "n": 298,
+      "model_r": {
+        "har_19_composite": 0.801,
+        "stolz_15_periodicity": 0.739,
+        "har_19_corpus": 0.722,
+        "hutch_78_roughness": 0.713,
+        "huron_94_dyadic": 0.685,
+        "jl_12_tonal": 0.634,
+        "har_18_harmonicity": 0.62,
+        "parn_88_root_ambig": 0.598,
+        "parn_94_pure": 0.581,
+        "milne_13_harmonicity": 0.56,
+        "parn_94_complex": 0.503,
+        "bowl_18_min_freq_dist": 0.465,
+        "parn_94_mult": 0.436,
+        "seth_93_roughness": 0.392,
+        "vass_01_roughness": 0.389
+      },
+      "r2_combinations": {
+        "I": 0.508,
+        "H": 0.3846,
+        "F": 0.5212,
+        "I+H": 0.527,
+        "I+F": 0.6642,
+        "H+F": 0.6248,
+        "I+H+F": 0.6738
+      },
+      "unique_contributions": {
+        "interference": {
+          "delta_r2": 0.049,
+          "F": 44.18,
+          "p": 0.0
+        },
+        "harmonicity": {
+          "delta_r2": 0.0096,
+          "F": 8.62,
+          "p": 0.00358
+        },
+        "familiarity": {
+          "delta_r2": 0.1468,
+          "F": 132.34,
+          "p": 0.0
+        }
+      },
+      "r_har19_composite": 0.801,
+      "pairwise": {
+        "I_H": 0.74,
+        "I_F": 0.55,
+        "H_F": 0.464
+      }
+    },
+    "johnson-laird2012": {
+      "n": 103,
+      "model_r": {
+        "stolz_15_periodicity": 0.723,
+        "jl_12_tonal": 0.719,
+        "huron_94_dyadic": 0.68,
+        "har_19_composite": 0.628,
+        "har_19_corpus": 0.568,
+        "har_18_harmonicity": 0.496,
+        "milne_13_harmonicity": 0.485,
+        "hutch_78_roughness": 0.44,
+        "parn_88_root_ambig": 0.382,
+        "parn_94_pure": 0.239,
+        "parn_94_complex": 0.187,
+        "parn_94_mult": 0.176,
+        "seth_93_roughness": 0.065,
+        "bowl_18_min_freq_dist": 0.042,
+        "vass_01_roughness": 0.042
+      },
+      "r2_combinations": {
+        "I": 0.1932,
+        "H": 0.2461,
+        "F": 0.3229,
+        "I+H": 0.2738,
+        "I+F": 0.3722,
+        "H+F": 0.4089,
+        "I+H+F": 0.4143
+      },
+      "unique_contributions": {
+        "interference": {
+          "delta_r2": 0.0054,
+          "F": 0.91,
+          "p": 0.34358
+        },
+        "harmonicity": {
+          "delta_r2": 0.0421,
+          "F": 7.12,
+          "p": 0.00893
+        },
+        "familiarity": {
+          "delta_r2": 0.1405,
+          "F": 23.74,
+          "p": 0.0
+        }
+      },
+      "r_har19_composite": 0.628,
+      "pairwise": {
+        "I_H": 0.624,
+        "I_F": 0.419,
+        "H_F": 0.4
+      }
+    }
+  }
+}

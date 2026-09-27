@@ -1,0 +1,252 @@
+{
+ "dyads_bowling": {
+  "observed_tt_minus_m6": 0.524,
+  "rating_sd_dyads": 0.788,
+  "models": {
+   "roughness (H&K)": {
+    "r2": 0.6539,
+    "resid_tt": 0.7296,
+    "resid_m6": 0.1969,
+    "loo_resid_tt": 0.8027,
+    "loo_resid_m6": 0.2164,
+    "pred_tt_minus_m6": -0.0087,
+    "share_of_gap_reproduced": -0.0167,
+    "tt_resid_rank": 2
+   },
+   "roughness (Sethares)": {
+    "r2": 0.5334,
+    "resid_tt": 0.5765,
+    "resid_m6": 0.1331,
+    "loo_resid_tt": 0.6291,
+    "loo_resid_m6": 0.1458,
+    "pred_tt_minus_m6": 0.0806,
+    "share_of_gap_reproduced": 0.1539,
+    "tt_resid_rank": 3
+   },
+   "H&K + harmonicity": {
+    "r2": 0.7995,
+    "resid_tt": 0.3484,
+    "resid_m6": 0.0749,
+    "loo_resid_tt": 0.4567,
+    "loo_resid_m6": 0.0837,
+    "pred_tt_minus_m6": 0.2505,
+    "share_of_gap_reproduced": 0.4781,
+    "tt_resid_rank": 2
+   },
+   "H&K + familiarity": {
+    "r2": 0.7666,
+    "resid_tt": 0.3957,
+    "resid_m6": 0.1017,
+    "loo_resid_tt": 0.5179,
+    "loo_resid_m6": 0.1132,
+    "pred_tt_minus_m6": 0.2299,
+    "share_of_gap_reproduced": 0.4388,
+    "tt_resid_rank": 2
+   },
+   "H&K + harmonicity + familiarity": {
+    "r2": 0.7997,
+    "resid_tt": 0.3455,
+    "resid_m6": 0.0747,
+    "loo_resid_tt": 0.4588,
+    "loo_resid_m6": 0.0835,
+    "pred_tt_minus_m6": 0.2533,
+    "share_of_gap_reproduced": 0.4833,
+    "tt_resid_rank": 2
+   },
+   "H&K + periodicity (Stolzenburg)": {
+    "r2": 0.8986,
+    "resid_tt": 0.2658,
+    "resid_m6": -0.0842,
+    "loo_resid_tt": 0.3406,
+    "loo_resid_m6": -0.0976,
+    "pred_tt_minus_m6": 0.1741,
+    "share_of_gap_reproduced": 0.3322,
+    "tt_resid_rank": 2
+   }
+  }
+ },
+ "penalty": {
+  "bowling2018": {
+   "n": 298,
+   "n_with_tritone": 117,
+   "rating_sd": 0.6368,
+   "models": {
+    "size only": {
+     "tritone_penalty": 0.2054,
+     "tritone_ci": [
+      0.1203,
+      0.2995
+     ],
+     "semitone_penalty": 0.551,
+     "semitone_ci": [
+      0.4864,
+      0.6179
+     ]
+    },
+    "roughness (H&K)": {
+     "tritone_penalty": 0.197,
+     "tritone_ci": [
+      0.1251,
+      0.2675
+     ],
+     "semitone_penalty": 0.1802,
+     "semitone_ci": [
+      0.0979,
+      0.2589
+     ]
+    },
+    "roughness (Sethares)": {
+     "tritone_penalty": 0.184,
+     "tritone_ci": [
+      0.1147,
+      0.2554
+     ],
+     "semitone_penalty": 0.4584,
+     "semitone_ci": [
+      0.4006,
+      0.5189
+     ]
+    },
+    "H&K + harmonicity": {
+     "tritone_penalty": 0.0802,
+     "tritone_ci": [
+      0.0057,
+      0.1505
+     ],
+     "semitone_penalty": 0.206,
+     "semitone_ci": [
+      0.1249,
+      0.2824
+     ]
+    },
+    "H&K + familiarity": {
+     "tritone_penalty": 0.09,
+     "tritone_ci": [
+      0.0159,
+      0.1612
+     ],
+     "semitone_penalty": 0.0941,
+     "semitone_ci": [
+      0.0192,
+      0.1698
+     ]
+    },
+    "H&K + harmonicity + familiarity": {
+     "tritone_penalty": 0.0021,
+     "tritone_ci": [
+      -0.07,
+      0.0718
+     ],
+     "semitone_penalty": 0.1248,
+     "semitone_ci": [
+      0.0423,
+      0.2002
+     ]
+    },
+    "H&K + periodicity (Stolzenburg)": {
+     "tritone_penalty": 0.1091,
+     "tritone_ci": [
+      0.0373,
+      0.1766
+     ],
+     "semitone_penalty": 0.1362,
+     "semitone_ci": [
+      0.0562,
+      0.221
+     ]
+    }
+   }
+  },
+  "johnson-laird2012": {
+   "n": 103,
+   "n_with_tritone": 39,
+   "rating_sd": 1.0991,
+   "models": {
+    "size only": {
+     "tritone_penalty": 0.7048,
+     "tritone_ci": [
+      0.4232,
+      0.9988
+     ],
+     "semitone_penalty": 1.0881,
+     "semitone_ci": [
+      0.855,
+      1.3109
+     ]
+    },
+    "roughness (H&K)": {
+     "tritone_penalty": 0.6571,
+     "tritone_ci": [
+      0.388,
+      0.942
+     ],
+     "semitone_penalty": 0.8549,
+     "semitone_ci": [
+      0.5798,
+      1.1207
+     ]
+    },
+    "roughness (Sethares)": {
+     "tritone_penalty": 0.6998,
+     "tritone_ci": [
+      0.4184,
+      1.022
+     ],
+     "semitone_penalty": 1.0796,
+     "semitone_ci": [
+      0.8465,
+      1.3196
+     ]
+    },
+    "H&K + harmonicity": {
+     "tritone_penalty": 0.3928,
+     "tritone_ci": [
+      0.0831,
+      0.687
+     ],
+     "semitone_penalty": 0.6654,
+     "semitone_ci": [
+      0.3608,
+      0.9598
+     ]
+    },
+    "H&K + familiarity": {
+     "tritone_penalty": 0.5582,
+     "tritone_ci": [
+      0.2621,
+      0.8545
+     ],
+     "semitone_penalty": 0.7043,
+     "semitone_ci": [
+      0.4012,
+      0.9992
+     ]
+    },
+    "H&K + harmonicity + familiarity": {
+     "tritone_penalty": 0.3387,
+     "tritone_ci": [
+      -0.0079,
+      0.6792
+     ],
+     "semitone_penalty": 0.5634,
+     "semitone_ci": [
+      0.2372,
+      0.8452
+     ]
+    },
+    "H&K + periodicity (Stolzenburg)": {
+     "tritone_penalty": 0.3466,
+     "tritone_ci": [
+      0.0857,
+      0.6163
+     ],
+     "semitone_penalty": 0.3997,
+     "semitone_ci": [
+      0.1236,
+      0.6676
+     ]
+    }
+   }
+  }
+ }
+}

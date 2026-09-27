@@ -1,0 +1,721 @@
+{
+  "bitrates_kbps": [
+    96,
+    80,
+    64,
+    48
+  ],
+  "targets": {
+    "clarinet_C4": {
+      "source_file": "BbClar.ff.C4B4.aiff",
+      "note": "C4",
+      "instrument": "clarinet",
+      "variants": {
+        "lossless": {
+          "f0_hz": 261.24,
+          "n_partials": 15,
+          "highest_ratio": 16.001,
+          "spectrum_vs_lossless": {
+            "n_grid": 15,
+            "cosine": 1.0,
+            "max_abs_amp_diff": 0.0
+          },
+          "gaps": {
+            "Sethares": {
+              "tritone": 0.2274,
+              "m6": 0.2446,
+              "tritone_gt_m6": false,
+              "gap_pct": -7.0
+            },
+            "Sethares-min": {
+              "tritone": 0.3186,
+              "m6": 0.3161,
+              "tritone_gt_m6": true,
+              "gap_pct": 0.8
+            },
+            "Vassilakis": {
+              "tritone": 0.3027,
+              "m6": 0.2606,
+              "tritone_gt_m6": true,
+              "gap_pct": 16.1
+            },
+            "Hutch-Knopoff": {
+              "tritone": 0.1114,
+              "m6": 0.1953,
+              "tritone_gt_m6": false,
+              "gap_pct": -43.0
+            }
+          }
+        },
+        "mp3_96k": {
+          "f0_hz": 261.24,
+          "n_partials": 15,
+          "highest_ratio": 16.001,
+          "spectrum_vs_lossless": {
+            "n_grid": 15,
+            "cosine": 1.0,
+            "max_abs_amp_diff": 0.0006
+          },
+          "gaps": {
+            "Sethares": {
+              "tritone": 0.2271,
+              "m6": 0.2442,
+              "tritone_gt_m6": false,
+              "gap_pct": -7.0
+            },
+            "Sethares-min": {
+              "tritone": 0.3183,
+              "m6": 0.3158,
+              "tritone_gt_m6": true,
+              "gap_pct": 0.8
+            },
+            "Vassilakis": {
+              "tritone": 0.3025,
+              "m6": 0.2606,
+              "tritone_gt_m6": true,
+              "gap_pct": 16.1
+            },
+            "Hutch-Knopoff": {
+              "tritone": 0.1112,
+              "m6": 0.195,
+              "tritone_gt_m6": false,
+              "gap_pct": -43.0
+            }
+          }
+        },
+        "mp3_80k": {
+          "f0_hz": 261.24,
+          "n_partials": 15,
+          "highest_ratio": 16.001,
+          "spectrum_vs_lossless": {
+            "n_grid": 15,
+            "cosine": 1.0,
+            "max_abs_amp_diff": 0.0021
+          },
+          "gaps": {
+            "Sethares": {
+              "tritone": 0.227,
+              "m6": 0.245,
+              "tritone_gt_m6": false,
+              "gap_pct": -7.3
+            },
+            "Sethares-min": {
+              "tritone": 0.3177,
+              "m6": 0.3159,
+              "tritone_gt_m6": true,
+              "gap_pct": 0.6
+            },
+            "Vassilakis": {
+              "tritone": 0.3009,
+              "m6": 0.2602,
+              "tritone_gt_m6": true,
+              "gap_pct": 15.7
+            },
+            "Hutch-Knopoff": {
+              "tritone": 0.1112,
+              "m6": 0.1958,
+              "tritone_gt_m6": false,
+              "gap_pct": -43.2
+            }
+          }
+        },
+        "mp3_64k": {
+          "f0_hz": 261.24,
+          "n_partials": 15,
+          "highest_ratio": 16.001,
+          "spectrum_vs_lossless": {
+            "n_grid": 15,
+            "cosine": 1.0,
+            "max_abs_amp_diff": 0.0019
+          },
+          "gaps": {
+            "Sethares": {
+              "tritone": 0.2274,
+              "m6": 0.2446,
+              "tritone_gt_m6": false,
+              "gap_pct": -7.0
+            },
+            "Sethares-min": {
+              "tritone": 0.318,
+              "m6": 0.3156,
+              "tritone_gt_m6": true,
+              "gap_pct": 0.8
+            },
+            "Vassilakis": {
+              "tritone": 0.3027,
+              "m6": 0.2612,
+              "tritone_gt_m6": true,
+              "gap_pct": 15.9
+            },
+            "Hutch-Knopoff": {
+              "tritone": 0.1115,
+              "m6": 0.1954,
+              "tritone_gt_m6": false,
+              "gap_pct": -42.9
+            }
+          }
+        },
+        "mp3_48k": {
+          "f0_hz": 261.24,
+          "n_partials": 15,
+          "highest_ratio": 16.001,
+          "spectrum_vs_lossless": {
+            "n_grid": 15,
+            "cosine": 0.99998,
+            "max_abs_amp_diff": 0.0112
+          },
+          "gaps": {
+            "Sethares": {
+              "tritone": 0.2268,
+              "m6": 0.2417,
+              "tritone_gt_m6": false,
+              "gap_pct": -6.1
+            },
+            "Sethares-min": {
+              "tritone": 0.3185,
+              "m6": 0.3152,
+              "tritone_gt_m6": true,
+              "gap_pct": 1.0
+            },
+            "Vassilakis": {
+              "tritone": 0.305,
+              "m6": 0.2665,
+              "tritone_gt_m6": true,
+              "gap_pct": 14.5
+            },
+            "Hutch-Knopoff": {
+              "tritone": 0.1105,
+              "m6": 0.1925,
+              "tritone_gt_m6": false,
+              "gap_pct": -42.6
+            }
+          }
+        }
+      },
+      "gap_shifts": {
+        "Sethares": {
+          "lossless_gap_pct": -7.0,
+          "deltas": {
+            "mp3_96k": 0.0,
+            "mp3_80k": -0.3,
+            "mp3_64k": 0.0,
+            "mp3_48k": 0.9
+          },
+          "worst": "mp3_48k",
+          "worst_delta_pp": 0.9,
+          "bitrates_that_flip_the_ordering": []
+        },
+        "Sethares-min": {
+          "lossless_gap_pct": 0.8,
+          "deltas": {
+            "mp3_96k": 0.0,
+            "mp3_80k": -0.2,
+            "mp3_64k": 0.0,
+            "mp3_48k": 0.2
+          },
+          "worst": "mp3_80k",
+          "worst_delta_pp": -0.2,
+          "bitrates_that_flip_the_ordering": []
+        },
+        "Vassilakis": {
+          "lossless_gap_pct": 16.1,
+          "deltas": {
+            "mp3_96k": 0.0,
+            "mp3_80k": -0.4,
+            "mp3_64k": -0.2,
+            "mp3_48k": -1.6
+          },
+          "worst": "mp3_48k",
+          "worst_delta_pp": -1.6,
+          "bitrates_that_flip_the_ordering": []
+        },
+        "Hutch-Knopoff": {
+          "lossless_gap_pct": -43.0,
+          "deltas": {
+            "mp3_96k": 0.0,
+            "mp3_80k": -0.2,
+            "mp3_64k": 0.1,
+            "mp3_48k": 0.4
+          },
+          "worst": "mp3_48k",
+          "worst_delta_pp": 0.4,
+          "bitrates_that_flip_the_ordering": []
+        }
+      }
+    },
+    "oboe_C4": {
+      "source_file": "Oboe.ff.C4B4.aiff",
+      "note": "C4",
+      "instrument": "oboe",
+      "variants": {
+        "lossless": {
+          "f0_hz": 260.79,
+          "n_partials": 15,
+          "highest_ratio": 15.981,
+          "spectrum_vs_lossless": {
+            "n_grid": 15,
+            "cosine": 1.0,
+            "max_abs_amp_diff": 0.0
+          },
+          "gaps": {
+            "Sethares": {
+              "tritone": 0.2632,
+              "m6": 0.2336,
+              "tritone_gt_m6": true,
+              "gap_pct": 12.7
+            },
+            "Sethares-min": {
+              "tritone": 0.3623,
+              "m6": 0.3201,
+              "tritone_gt_m6": true,
+              "gap_pct": 13.2
+            },
+            "Vassilakis": {
+              "tritone": 0.311,
+              "m6": 0.2526,
+              "tritone_gt_m6": true,
+              "gap_pct": 23.1
+            },
+            "Hutch-Knopoff": {
+              "tritone": 0.157,
+              "m6": 0.1718,
+              "tritone_gt_m6": false,
+              "gap_pct": -8.6
+            }
+          }
+        },
+        "mp3_96k": {
+          "f0_hz": 260.79,
+          "n_partials": 15,
+          "highest_ratio": 15.981,
+          "spectrum_vs_lossless": {
+            "n_grid": 15,
+            "cosine": 1.0,
+            "max_abs_amp_diff": 0.0029
+          },
+          "gaps": {
+            "Sethares": {
+              "tritone": 0.2629,
+              "m6": 0.2333,
+              "tritone_gt_m6": true,
+              "gap_pct": 12.7
+            },
+            "Sethares-min": {
+              "tritone": 0.3625,
+              "m6": 0.3196,
+              "tritone_gt_m6": true,
+              "gap_pct": 13.4
+            },
+            "Vassilakis": {
+              "tritone": 0.3183,
+              "m6": 0.2512,
+              "tritone_gt_m6": true,
+              "gap_pct": 26.7
+            },
+            "Hutch-Knopoff": {
+              "tritone": 0.1567,
+              "m6": 0.1716,
+              "tritone_gt_m6": false,
+              "gap_pct": -8.7
+            }
+          }
+        },
+        "mp3_80k": {
+          "f0_hz": 260.78,
+          "n_partials": 15,
+          "highest_ratio": 15.981,
+          "spectrum_vs_lossless": {
+            "n_grid": 15,
+            "cosine": 1.0,
+            "max_abs_amp_diff": 0.0004
+          },
+          "gaps": {
+            "Sethares": {
+              "tritone": 0.2632,
+              "m6": 0.2336,
+              "tritone_gt_m6": true,
+              "gap_pct": 12.7
+            },
+            "Sethares-min": {
+              "tritone": 0.3623,
+              "m6": 0.3199,
+              "tritone_gt_m6": true,
+              "gap_pct": 13.2
+            },
+            "Vassilakis": {
+              "tritone": 0.3118,
+              "m6": 0.2523,
+              "tritone_gt_m6": true,
+              "gap_pct": 23.6
+            },
+            "Hutch-Knopoff": {
+              "tritone": 0.157,
+              "m6": 0.1717,
+              "tritone_gt_m6": false,
+              "gap_pct": -8.6
+            }
+          }
+        },
+        "mp3_64k": {
+          "f0_hz": 260.79,
+          "n_partials": 15,
+          "highest_ratio": 15.981,
+          "spectrum_vs_lossless": {
+            "n_grid": 15,
+            "cosine": 1.0,
+            "max_abs_amp_diff": 0.0016
+          },
+          "gaps": {
+            "Sethares": {
+              "tritone": 0.2634,
+              "m6": 0.2333,
+              "tritone_gt_m6": true,
+              "gap_pct": 12.9
+            },
+            "Sethares-min": {
+              "tritone": 0.3617,
+              "m6": 0.3198,
+              "tritone_gt_m6": true,
+              "gap_pct": 13.1
+            },
+            "Vassilakis": {
+              "tritone": 0.3089,
+              "m6": 0.2533,
+              "tritone_gt_m6": true,
+              "gap_pct": 21.9
+            },
+            "Hutch-Knopoff": {
+              "tritone": 0.1571,
+              "m6": 0.1716,
+              "tritone_gt_m6": false,
+              "gap_pct": -8.5
+            }
+          }
+        },
+        "mp3_48k": {
+          "f0_hz": 260.78,
+          "n_partials": 15,
+          "highest_ratio": 15.98,
+          "spectrum_vs_lossless": {
+            "n_grid": 15,
+            "cosine": 0.99999,
+            "max_abs_amp_diff": 0.0034
+          },
+          "gaps": {
+            "Sethares": {
+              "tritone": 0.2617,
+              "m6": 0.2317,
+              "tritone_gt_m6": true,
+              "gap_pct": 13.0
+            },
+            "Sethares-min": {
+              "tritone": 0.3608,
+              "m6": 0.3189,
+              "tritone_gt_m6": true,
+              "gap_pct": 13.2
+            },
+            "Vassilakis": {
+              "tritone": 0.3073,
+              "m6": 0.2542,
+              "tritone_gt_m6": true,
+              "gap_pct": 20.9
+            },
+            "Hutch-Knopoff": {
+              "tritone": 0.1556,
+              "m6": 0.1699,
+              "tritone_gt_m6": false,
+              "gap_pct": -8.4
+            }
+          }
+        }
+      },
+      "gap_shifts": {
+        "Sethares": {
+          "lossless_gap_pct": 12.7,
+          "deltas": {
+            "mp3_96k": 0.0,
+            "mp3_80k": 0.0,
+            "mp3_64k": 0.2,
+            "mp3_48k": 0.3
+          },
+          "worst": "mp3_48k",
+          "worst_delta_pp": 0.3,
+          "bitrates_that_flip_the_ordering": []
+        },
+        "Sethares-min": {
+          "lossless_gap_pct": 13.2,
+          "deltas": {
+            "mp3_96k": 0.2,
+            "mp3_80k": 0.0,
+            "mp3_64k": -0.1,
+            "mp3_48k": 0.0
+          },
+          "worst": "mp3_96k",
+          "worst_delta_pp": 0.2,
+          "bitrates_that_flip_the_ordering": []
+        },
+        "Vassilakis": {
+          "lossless_gap_pct": 23.1,
+          "deltas": {
+            "mp3_96k": 3.6,
+            "mp3_80k": 0.5,
+            "mp3_64k": -1.2,
+            "mp3_48k": -2.2
+          },
+          "worst": "mp3_96k",
+          "worst_delta_pp": 3.6,
+          "bitrates_that_flip_the_ordering": []
+        },
+        "Hutch-Knopoff": {
+          "lossless_gap_pct": -8.6,
+          "deltas": {
+            "mp3_96k": -0.1,
+            "mp3_80k": 0.0,
+            "mp3_64k": 0.1,
+            "mp3_48k": 0.2
+          },
+          "worst": "mp3_48k",
+          "worst_delta_pp": 0.2,
+          "bitrates_that_flip_the_ordering": []
+        }
+      }
+    },
+    "oboe_C5": {
+      "source_file": "Oboe.ff.C5B5.aiff",
+      "note": "C5",
+      "instrument": "oboe",
+      "variants": {
+        "lossless": {
+          "f0_hz": 526.88,
+          "n_partials": 15,
+          "highest_ratio": 16.994,
+          "spectrum_vs_lossless": {
+            "n_grid": 15,
+            "cosine": 1.0,
+            "max_abs_amp_diff": 0.0
+          },
+          "gaps": {
+            "Sethares": {
+              "tritone": 0.3306,
+              "m6": 0.3038,
+              "tritone_gt_m6": true,
+              "gap_pct": 8.8
+            },
+            "Sethares-min": {
+              "tritone": 0.2949,
+              "m6": 0.2579,
+              "tritone_gt_m6": true,
+              "gap_pct": 14.3
+            },
+            "Vassilakis": {
+              "tritone": 0.1086,
+              "m6": 0.1012,
+              "tritone_gt_m6": true,
+              "gap_pct": 7.3
+            },
+            "Hutch-Knopoff": {
+              "tritone": 0.2666,
+              "m6": 0.2431,
+              "tritone_gt_m6": true,
+              "gap_pct": 9.6
+            }
+          }
+        },
+        "mp3_96k": {
+          "f0_hz": 526.88,
+          "n_partials": 15,
+          "highest_ratio": 16.994,
+          "spectrum_vs_lossless": {
+            "n_grid": 15,
+            "cosine": 1.0,
+            "max_abs_amp_diff": 0.0005
+          },
+          "gaps": {
+            "Sethares": {
+              "tritone": 0.3305,
+              "m6": 0.3037,
+              "tritone_gt_m6": true,
+              "gap_pct": 8.9
+            },
+            "Sethares-min": {
+              "tritone": 0.2949,
+              "m6": 0.2578,
+              "tritone_gt_m6": true,
+              "gap_pct": 14.4
+            },
+            "Vassilakis": {
+              "tritone": 0.1086,
+              "m6": 0.1011,
+              "tritone_gt_m6": true,
+              "gap_pct": 7.5
+            },
+            "Hutch-Knopoff": {
+              "tritone": 0.2665,
+              "m6": 0.2431,
+              "tritone_gt_m6": true,
+              "gap_pct": 9.6
+            }
+          }
+        },
+        "mp3_80k": {
+          "f0_hz": 526.88,
+          "n_partials": 15,
+          "highest_ratio": 16.994,
+          "spectrum_vs_lossless": {
+            "n_grid": 15,
+            "cosine": 1.0,
+            "max_abs_amp_diff": 0.0015
+          },
+          "gaps": {
+            "Sethares": {
+              "tritone": 0.3305,
+              "m6": 0.3036,
+              "tritone_gt_m6": true,
+              "gap_pct": 8.9
+            },
+            "Sethares-min": {
+              "tritone": 0.295,
+              "m6": 0.2579,
+              "tritone_gt_m6": true,
+              "gap_pct": 14.4
+            },
+            "Vassilakis": {
+              "tritone": 0.1089,
+              "m6": 0.1007,
+              "tritone_gt_m6": true,
+              "gap_pct": 8.2
+            },
+            "Hutch-Knopoff": {
+              "tritone": 0.2664,
+              "m6": 0.2429,
+              "tritone_gt_m6": true,
+              "gap_pct": 9.7
+            }
+          }
+        },
+        "mp3_64k": {
+          "f0_hz": 526.88,
+          "n_partials": 15,
+          "highest_ratio": 16.994,
+          "spectrum_vs_lossless": {
+            "n_grid": 15,
+            "cosine": 1.0,
+            "max_abs_amp_diff": 0.0021
+          },
+          "gaps": {
+            "Sethares": {
+              "tritone": 0.3309,
+              "m6": 0.3037,
+              "tritone_gt_m6": true,
+              "gap_pct": 9.0
+            },
+            "Sethares-min": {
+              "tritone": 0.2955,
+              "m6": 0.2579,
+              "tritone_gt_m6": true,
+              "gap_pct": 14.6
+            },
+            "Vassilakis": {
+              "tritone": 0.1084,
+              "m6": 0.0991,
+              "tritone_gt_m6": true,
+              "gap_pct": 9.3
+            },
+            "Hutch-Knopoff": {
+              "tritone": 0.2667,
+              "m6": 0.2428,
+              "tritone_gt_m6": true,
+              "gap_pct": 9.8
+            }
+          }
+        },
+        "mp3_48k": {
+          "f0_hz": 526.88,
+          "n_partials": 15,
+          "highest_ratio": 16.993,
+          "spectrum_vs_lossless": {
+            "n_grid": 15,
+            "cosine": 0.99999,
+            "max_abs_amp_diff": 0.006
+          },
+          "gaps": {
+            "Sethares": {
+              "tritone": 0.3309,
+              "m6": 0.3037,
+              "tritone_gt_m6": true,
+              "gap_pct": 9.0
+            },
+            "Sethares-min": {
+              "tritone": 0.2947,
+              "m6": 0.2578,
+              "tritone_gt_m6": true,
+              "gap_pct": 14.3
+            },
+            "Vassilakis": {
+              "tritone": 0.1104,
+              "m6": 0.1051,
+              "tritone_gt_m6": true,
+              "gap_pct": 5.0
+            },
+            "Hutch-Knopoff": {
+              "tritone": 0.2666,
+              "m6": 0.2428,
+              "tritone_gt_m6": true,
+              "gap_pct": 9.8
+            }
+          }
+        }
+      },
+      "gap_shifts": {
+        "Sethares": {
+          "lossless_gap_pct": 8.8,
+          "deltas": {
+            "mp3_96k": 0.1,
+            "mp3_80k": 0.1,
+            "mp3_64k": 0.2,
+            "mp3_48k": 0.2
+          },
+          "worst": "mp3_64k",
+          "worst_delta_pp": 0.2,
+          "bitrates_that_flip_the_ordering": []
+        },
+        "Sethares-min": {
+          "lossless_gap_pct": 14.3,
+          "deltas": {
+            "mp3_96k": 0.1,
+            "mp3_80k": 0.1,
+            "mp3_64k": 0.3,
+            "mp3_48k": 0.0
+          },
+          "worst": "mp3_64k",
+          "worst_delta_pp": 0.3,
+          "bitrates_that_flip_the_ordering": []
+        },
+        "Vassilakis": {
+          "lossless_gap_pct": 7.3,
+          "deltas": {
+            "mp3_96k": 0.2,
+            "mp3_80k": 0.9,
+            "mp3_64k": 2.0,
+            "mp3_48k": -2.3
+          },
+          "worst": "mp3_48k",
+          "worst_delta_pp": -2.3,
+          "bitrates_that_flip_the_ordering": []
+        },
+        "Hutch-Knopoff": {
+          "lossless_gap_pct": 9.6,
+          "deltas": {
+            "mp3_96k": 0.0,
+            "mp3_80k": 0.1,
+            "mp3_64k": 0.2,
+            "mp3_48k": 0.2
+          },
+          "worst": "mp3_64k",
+          "worst_delta_pp": 0.2,
+          "bitrates_that_flip_the_ordering": []
+        }
+      }
+    }
+  }
+}

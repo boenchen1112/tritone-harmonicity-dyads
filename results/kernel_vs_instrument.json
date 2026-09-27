@@ -1,0 +1,325 @@
+{
+  "instrument_comparison/all4": {
+    "timbres": [
+      "cello",
+      "clarinet",
+      "oboe",
+      "flute",
+      "bassoon",
+      "saxophone",
+      "french-horn",
+      "piano"
+    ],
+    "models": [
+      "Sethares",
+      "Sethares-min",
+      "Vassilakis",
+      "Hutch-Knopoff"
+    ],
+    "partition_gap_pct": {
+      "instrument_share": 0.258,
+      "model_share": 0.163,
+      "interaction_share": 0.58
+    },
+    "partition_log_ratio": {
+      "instrument_share": 0.335,
+      "model_share": 0.184,
+      "interaction_share": 0.48
+    },
+    "sign": {
+      "model_pairs_disagree": 11,
+      "model_pairs_total": 48,
+      "model_pair_rate": 0.229,
+      "instrument_pairs_disagree": 45,
+      "instrument_pairs_total": 112,
+      "instrument_pair_rate": 0.402
+    },
+    "ranges_pp": {
+      "across_models_by_instrument": {
+        "cello": 76.0,
+        "clarinet": 86.4,
+        "oboe": 18.0,
+        "flute": 17.2,
+        "bassoon": 48.7,
+        "saxophone": 16.5,
+        "french-horn": 204.9,
+        "piano": 20.5
+      },
+      "across_instruments_by_model": {
+        "Sethares": 93.8,
+        "Sethares-min": 42.2,
+        "Vassilakis": 212.3,
+        "Hutch-Knopoff": 101.6
+      },
+      "median_across_models": 34.6,
+      "median_across_instruments": 97.7
+    },
+    "flipping_models_by_instrument": {
+      "cello": [
+        "Hutch-Knopoff"
+      ],
+      "clarinet": [
+        "Sethares",
+        "Hutch-Knopoff"
+      ],
+      "oboe": [],
+      "flute": [
+        "Sethares",
+        "Sethares-min",
+        "Vassilakis",
+        "Hutch-Knopoff"
+      ],
+      "bassoon": [],
+      "saxophone": [],
+      "french-horn": [
+        "Sethares",
+        "Hutch-Knopoff"
+      ],
+      "piano": []
+    }
+  },
+  "instrument_comparison/noVass": {
+    "timbres": [
+      "cello",
+      "clarinet",
+      "oboe",
+      "flute",
+      "bassoon",
+      "saxophone",
+      "french-horn",
+      "piano"
+    ],
+    "models": [
+      "Sethares",
+      "Sethares-min",
+      "Hutch-Knopoff"
+    ],
+    "partition_gap_pct": {
+      "instrument_share": 0.552,
+      "model_share": 0.085,
+      "interaction_share": 0.364
+    },
+    "partition_log_ratio": {
+      "instrument_share": 0.558,
+      "model_share": 0.108,
+      "interaction_share": 0.334
+    },
+    "sign": {
+      "model_pairs_disagree": 6,
+      "model_pairs_total": 24,
+      "model_pair_rate": 0.25,
+      "instrument_pairs_disagree": 38,
+      "instrument_pairs_total": 84,
+      "instrument_pair_rate": 0.452
+    },
+    "ranges_pp": {
+      "across_models_by_instrument": {
+        "cello": 76.0,
+        "clarinet": 53.4,
+        "oboe": 18.0,
+        "flute": 17.2,
+        "bassoon": 48.7,
+        "saxophone": 1.0,
+        "french-horn": 22.0,
+        "piano": 14.4
+      },
+      "across_instruments_by_model": {
+        "Sethares": 93.8,
+        "Sethares-min": 42.2,
+        "Hutch-Knopoff": 101.6
+      },
+      "median_across_models": 20.0,
+      "median_across_instruments": 93.8
+    },
+    "flipping_models_by_instrument": {
+      "cello": [
+        "Hutch-Knopoff"
+      ],
+      "clarinet": [
+        "Sethares",
+        "Hutch-Knopoff"
+      ],
+      "oboe": [],
+      "flute": [
+        "Sethares",
+        "Sethares-min",
+        "Hutch-Knopoff"
+      ],
+      "bassoon": [],
+      "saxophone": [],
+      "french-horn": [
+        "Sethares",
+        "Hutch-Knopoff"
+      ],
+      "piano": []
+    }
+  },
+  "register_test/all4": {
+    "timbres": [
+      "clarinet D3 (low)",
+      "clarinet C4 (mid)",
+      "clarinet C5 (high)",
+      "cello C3 (low)",
+      "cello C4 (mid)",
+      "cello C5 (high)",
+      "oboe A#3 (low)",
+      "oboe C4 (mid)",
+      "oboe C5 (high)"
+    ],
+    "models": [
+      "Sethares",
+      "Sethares-min",
+      "Vassilakis",
+      "Hutch-Knopoff"
+    ],
+    "partition_gap_pct": {
+      "instrument_share": 0.262,
+      "model_share": 0.355,
+      "interaction_share": 0.383
+    },
+    "partition_log_ratio": {
+      "instrument_share": 0.251,
+      "model_share": 0.435,
+      "interaction_share": 0.314
+    },
+    "sign": {
+      "model_pairs_disagree": 20,
+      "model_pairs_total": 54,
+      "model_pair_rate": 0.37,
+      "instrument_pairs_disagree": 44,
+      "instrument_pairs_total": 144,
+      "instrument_pair_rate": 0.306
+    },
+    "ranges_pp": {
+      "across_models_by_instrument": {
+        "clarinet D3 (low)": 52.6,
+        "clarinet C4 (mid)": 86.4,
+        "clarinet C5 (high)": 109.1,
+        "cello C3 (low)": 6.2,
+        "cello C4 (mid)": 76.0,
+        "cello C5 (high)": 53.8,
+        "oboe A#3 (low)": 29.9,
+        "oboe C4 (mid)": 18.0,
+        "oboe C5 (high)": 168.0
+      },
+      "across_instruments_by_model": {
+        "Sethares": 83.4,
+        "Sethares-min": 34.4,
+        "Vassilakis": 171.4,
+        "Hutch-Knopoff": 58.3
+      },
+      "median_across_models": 53.8,
+      "median_across_instruments": 70.8
+    },
+    "flipping_models_by_instrument": {
+      "clarinet D3 (low)": [
+        "Hutch-Knopoff"
+      ],
+      "clarinet C4 (mid)": [
+        "Sethares",
+        "Hutch-Knopoff"
+      ],
+      "clarinet C5 (high)": [
+        "Hutch-Knopoff"
+      ],
+      "cello C3 (low)": [],
+      "cello C4 (mid)": [
+        "Hutch-Knopoff"
+      ],
+      "cello C5 (high)": [
+        "Sethares",
+        "Hutch-Knopoff"
+      ],
+      "oboe A#3 (low)": [
+        "Sethares",
+        "Sethares-min",
+        "Hutch-Knopoff"
+      ],
+      "oboe C4 (mid)": [],
+      "oboe C5 (high)": []
+    }
+  },
+  "register_test/noVass": {
+    "timbres": [
+      "clarinet D3 (low)",
+      "clarinet C4 (mid)",
+      "clarinet C5 (high)",
+      "cello C3 (low)",
+      "cello C4 (mid)",
+      "cello C5 (high)",
+      "oboe A#3 (low)",
+      "oboe C4 (mid)",
+      "oboe C5 (high)"
+    ],
+    "models": [
+      "Sethares",
+      "Sethares-min",
+      "Hutch-Knopoff"
+    ],
+    "partition_gap_pct": {
+      "instrument_share": 0.429,
+      "model_share": 0.305,
+      "interaction_share": 0.266
+    },
+    "partition_log_ratio": {
+      "instrument_share": 0.386,
+      "model_share": 0.337,
+      "interaction_share": 0.277
+    },
+    "sign": {
+      "model_pairs_disagree": 10,
+      "model_pairs_total": 27,
+      "model_pair_rate": 0.37,
+      "instrument_pairs_disagree": 44,
+      "instrument_pairs_total": 108,
+      "instrument_pair_rate": 0.407
+    },
+    "ranges_pp": {
+      "across_models_by_instrument": {
+        "clarinet D3 (low)": 43.1,
+        "clarinet C4 (mid)": 53.4,
+        "clarinet C5 (high)": 58.5,
+        "cello C3 (low)": 3.5,
+        "cello C4 (mid)": 76.0,
+        "cello C5 (high)": 8.2,
+        "oboe A#3 (low)": 17.1,
+        "oboe C4 (mid)": 18.0,
+        "oboe C5 (high)": 11.4
+      },
+      "across_instruments_by_model": {
+        "Sethares": 83.4,
+        "Sethares-min": 34.4,
+        "Hutch-Knopoff": 58.3
+      },
+      "median_across_models": 18.0,
+      "median_across_instruments": 58.3
+    },
+    "flipping_models_by_instrument": {
+      "clarinet D3 (low)": [
+        "Hutch-Knopoff"
+      ],
+      "clarinet C4 (mid)": [
+        "Sethares",
+        "Hutch-Knopoff"
+      ],
+      "clarinet C5 (high)": [
+        "Hutch-Knopoff"
+      ],
+      "cello C3 (low)": [],
+      "cello C4 (mid)": [
+        "Hutch-Knopoff"
+      ],
+      "cello C5 (high)": [
+        "Sethares",
+        "Hutch-Knopoff"
+      ],
+      "oboe A#3 (low)": [
+        "Sethares",
+        "Sethares-min",
+        "Hutch-Knopoff"
+      ],
+      "oboe C4 (mid)": [],
+      "oboe C5 (high)": []
+    }
+  }
+}

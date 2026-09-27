@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code or its results, please cite the paper and this repository."
+title: "Harmonicity accounts for the tritone's shortfall on the dissonance curve for dyads: code, results and manuscript source"
+type: software
+authors:
+  - family-names: Chen
+    given-names: Daniel
+    affiliation: "Independent Researcher, Taipei, Taiwan"
+    orcid: "https://orcid.org/0009-0009-5840-5012"
+version: v1.0-submission
+date-released: 2026-09-27
+license: MIT
+repository-code: "https://github.com/boenchen1112/tritone-harmonicity-dyads"
+# Filled in once the Zenodo archive exists:
+# doi: "[ZENODO DOI]"
+keywords:
+  - consonance
+  - dissonance curve
+  - tritone
+  - roughness
+  - harmonicity
+preferred-citation:
+  type: article
+  title: "Harmonicity accounts for the tritone's shortfall on the dissonance curve for dyads"
+  authors:
+    - family-names: Chen
+      given-names: Daniel
+      affiliation: "Independent Researcher, Taipei, Taiwan"
+      orcid: "https://orcid.org/0009-0009-5840-5012"
+  year: 2026
+  status: preprint

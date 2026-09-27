@@ -1,0 +1,282 @@
+{
+  "criterion": "H&K gap negative at D3, C4 and C5 (sign only; magnitudes are not comparable across libraries)",
+  "registers": {
+    "D3": {
+      "iowa": {
+        "source": "BbClar.ff.D3B3.aiff",
+        "f0_hz": 146.44,
+        "n_partials": 15,
+        "even_odd_amp_ratio": 0.4046,
+        "ratios": [
+          1.0,
+          1.9993,
+          2.9984,
+          3.9974,
+          4.9982,
+          5.9962,
+          6.9975,
+          7.9936,
+          8.9943,
+          9.9905,
+          10.9928,
+          11.9837,
+          13.9838,
+          14.9901,
+          16.9854
+        ],
+        "rel_amps": [
+          1.0,
+          0.0466,
+          0.5343,
+          0.1313,
+          0.6504,
+          0.2219,
+          0.265,
+          0.3619,
+          0.1844,
+          0.1671,
+          0.2117,
+          0.0625,
+          0.0448,
+          0.0401,
+          0.0402
+        ]
+      },
+      "philharmonia": {
+        "source": "clarinet_D3.mp3",
+        "f0_hz": 146.22,
+        "n_partials": 15,
+        "even_odd_amp_ratio": 0.4875
+      },
+      "models": {
+        "Sethares": {
+          "iowa_gap_pct": 12.96,
+          "phil_gap_pct": 12.33,
+          "difference_pp": 0.63,
+          "iowa_extraction_range_pp": 0.19,
+          "phil_extraction_range_pp": 0.62,
+          "difference_exceeds_extraction_noise": true,
+          "sign_agrees": true
+        },
+        "Sethares-min": {
+          "iowa_gap_pct": 7.95,
+          "phil_gap_pct": 11.88,
+          "difference_pp": -3.93,
+          "iowa_extraction_range_pp": 0.86,
+          "phil_extraction_range_pp": 0.47,
+          "difference_exceeds_extraction_noise": true,
+          "sign_agrees": true
+        },
+        "Vassilakis": {
+          "iowa_gap_pct": 3.37,
+          "phil_gap_pct": 21.78,
+          "difference_pp": -18.41,
+          "iowa_extraction_range_pp": 3.19,
+          "phil_extraction_range_pp": 7.8,
+          "difference_exceeds_extraction_noise": true,
+          "sign_agrees": true
+        },
+        "Hutch-Knopoff": {
+          "iowa_gap_pct": -22.11,
+          "phil_gap_pct": -30.78,
+          "difference_pp": 8.67,
+          "iowa_extraction_range_pp": 1.46,
+          "phil_extraction_range_pp": 0.54,
+          "difference_exceeds_extraction_noise": true,
+          "sign_agrees": true
+        }
+      },
+      "curve_r": {
+        "Sethares": 0.9897,
+        "Sethares-min": 0.9952,
+        "Vassilakis": 0.9888,
+        "Hutch-Knopoff": 0.99
+      }
+    },
+    "C4": {
+      "iowa": {
+        "source": "BbClar.ff.C4B4.aiff",
+        "f0_hz": 261.24,
+        "n_partials": 15,
+        "even_odd_amp_ratio": 0.1944,
+        "ratios": [
+          1.0,
+          2.0002,
+          3.0,
+          4.0004,
+          5.0001,
+          6.0005,
+          7.0005,
+          8.0004,
+          9.0002,
+          10.0007,
+          11.0008,
+          12.0012,
+          13.0006,
+          14.001,
+          16.0013
+        ],
+        "rel_amps": [
+          1.0,
+          0.0323,
+          0.8313,
+          0.1734,
+          0.3886,
+          0.173,
+          0.134,
+          0.0462,
+          0.0448,
+          0.0411,
+          0.015,
+          0.0201,
+          0.0267,
+          0.042,
+          0.0142
+        ]
+      },
+      "philharmonia": {
+        "source": "clarinet_C4.mp3",
+        "f0_hz": 260.8,
+        "n_partials": 15,
+        "even_odd_amp_ratio": 0.1777
+      },
+      "models": {
+        "Sethares": {
+          "iowa_gap_pct": -7.03,
+          "phil_gap_pct": -3.38,
+          "difference_pp": -3.65,
+          "iowa_extraction_range_pp": 0.02,
+          "phil_extraction_range_pp": 0.27,
+          "difference_exceeds_extraction_noise": true,
+          "sign_agrees": true
+        },
+        "Sethares-min": {
+          "iowa_gap_pct": 0.79,
+          "phil_gap_pct": 6.83,
+          "difference_pp": -6.04,
+          "iowa_extraction_range_pp": 0.2,
+          "phil_extraction_range_pp": 0.89,
+          "difference_exceeds_extraction_noise": true,
+          "sign_agrees": true
+        },
+        "Vassilakis": {
+          "iowa_gap_pct": 16.13,
+          "phil_gap_pct": 39.78,
+          "difference_pp": -23.65,
+          "iowa_extraction_range_pp": 3.86,
+          "phil_extraction_range_pp": 5.77,
+          "difference_exceeds_extraction_noise": true,
+          "sign_agrees": true
+        },
+        "Hutch-Knopoff": {
+          "iowa_gap_pct": -42.96,
+          "phil_gap_pct": -46.56,
+          "difference_pp": 3.6,
+          "iowa_extraction_range_pp": 0.03,
+          "phil_extraction_range_pp": 0.27,
+          "difference_exceeds_extraction_noise": true,
+          "sign_agrees": true
+        }
+      },
+      "curve_r": {
+        "Sethares": 0.9975,
+        "Sethares-min": 0.9986,
+        "Vassilakis": 0.9874,
+        "Hutch-Knopoff": 0.9964
+      }
+    },
+    "C5": {
+      "iowa": {
+        "source": "BbClar.ff.C5B5.aiff",
+        "f0_hz": 524.54,
+        "n_partials": 9,
+        "even_odd_amp_ratio": 0.3469,
+        "ratios": [
+          1.0,
+          1.9999,
+          2.9997,
+          3.9985,
+          5.0002,
+          5.9992,
+          6.9988,
+          7.999,
+          8.9986
+        ],
+        "rel_amps": [
+          1.0,
+          0.303,
+          0.316,
+          0.0225,
+          0.0581,
+          0.0601,
+          0.0333,
+          0.0077,
+          0.0097
+        ]
+      },
+      "philharmonia": {
+        "source": "clarinet_C5.mp3",
+        "f0_hz": 526.1,
+        "n_partials": 9,
+        "even_odd_amp_ratio": 0.0895
+      },
+      "models": {
+        "Sethares": {
+          "iowa_gap_pct": -7.42,
+          "phil_gap_pct": 15.3,
+          "difference_pp": -22.72,
+          "iowa_extraction_range_pp": 0.1,
+          "phil_extraction_range_pp": 0.51,
+          "difference_exceeds_extraction_noise": true,
+          "sign_agrees": false
+        },
+        "Sethares-min": {
+          "iowa_gap_pct": -2.49,
+          "phil_gap_pct": 4.04,
+          "difference_pp": -6.53,
+          "iowa_extraction_range_pp": 0.84,
+          "phil_extraction_range_pp": 0.86,
+          "difference_exceeds_extraction_noise": true,
+          "sign_agrees": false
+        },
+        "Vassilakis": {
+          "iowa_gap_pct": 14.23,
+          "phil_gap_pct": 65.94,
+          "difference_pp": -51.71,
+          "iowa_extraction_range_pp": 16.54,
+          "phil_extraction_range_pp": 15.05,
+          "difference_exceeds_extraction_noise": true,
+          "sign_agrees": true
+        },
+        "Hutch-Knopoff": {
+          "iowa_gap_pct": -11.72,
+          "phil_gap_pct": -43.25,
+          "difference_pp": 31.53,
+          "iowa_extraction_range_pp": 0.03,
+          "phil_extraction_range_pp": 0.33,
+          "difference_exceeds_extraction_noise": true,
+          "sign_agrees": true
+        }
+      },
+      "curve_r": {
+        "Sethares": 0.9756,
+        "Sethares-min": 0.9786,
+        "Vassilakis": 0.9856,
+        "Hutch-Knopoff": 0.9725
+      }
+    }
+  },
+  "replication": {
+    "hutch_knopoff_negative_at_all_three": true,
+    "verdict": "REPLICATED"
+  },
+  "secondary_sethares_c4": {
+    "iowa_gap_pct": -7.03,
+    "phil_gap_pct": -3.38,
+    "difference_pp": -3.65,
+    "iowa_extraction_range_pp": 0.02,
+    "phil_extraction_range_pp": 0.27,
+    "difference_exceeds_extraction_noise": true,
+    "sign_agrees": true
+  }
+}
