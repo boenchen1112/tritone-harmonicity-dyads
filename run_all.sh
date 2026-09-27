@@ -33,6 +33,7 @@ if [ "${1:-}" != "--no-analysis" ]; then
   run python $A/chords_sigma.py
   run NBOOT=500 python $A/model_boot.py
   run NBOOT=300 python $A/robustness_screen.py
+  run python $A/robustness_screen.py --profile   # results/residual_profile.json (point estimates)
   run python $A/ceiling.py
   run NBOOT=300 python $A/sharpness.py
   run python $A/sharpness_rolloff_implied.py

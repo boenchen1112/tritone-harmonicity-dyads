@@ -76,12 +76,12 @@ with the data download, allow about 7 hours. The longest steps are `marjieh_dyad
 minutes. The bootstrap counts in `run_all.sh` are those used for the reported results, and
 each script fixes its random seed. Re-running reproduces the committed JSON to floating-point
 precision (differences of order 1e-11), and `numbers.tex` and `tables/` exactly; see
-`REPRODUCIBILITY.md` once the clean rebuild has been recorded.
+`REPRODUCIBILITY.md` for the clean rebuild from a fresh clone.
 
 ## Which results feed which section
 
 Traced from `make_tables.py`: a file is listed where at least one number or table in the
-section is computed from it. Each `results/<name>.json` is written by `analysis/<name>.py`;
+section is computed from it. Each `results/<name>.json` is written by `analysis/<name>.py` (`residual_profile.json` by `robustness_screen.py --profile`);
 the `core/` files by the scripts listed in `core/README.md`.
 
 | Section | Results |
