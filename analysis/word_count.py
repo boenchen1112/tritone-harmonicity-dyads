@@ -1,6 +1,6 @@
 """
 Word count of the main text, by a fixed rule: the body from \\section{Introduction} up to
-\\section*{Data availability}, excluding the abstract, table and figure environments
+the statements after the Conclusion (\\section*{Acknowledgements} or \\section*{Data availability}), excluding the abstract, table and figure environments
 (captions included), comments and references. A result macro counts as one word, a citation
 command as two words per cited key (author, year), inline math as one word; other LaTeX
 commands are dropped but their braced arguments are kept.
@@ -13,7 +13,8 @@ from pathlib import Path
 MS = Path(__file__).resolve().parents[1]
 tex = (MS / (sys.argv[1] if len(sys.argv) > 1 else "paper.tex")).read_text(encoding="utf-8")
 tex = re.sub(r"(?<!\\)%.*", "", tex)
-body = tex.split(r"\section{Introduction}", 1)[1].split(r"\section*{Data availability}", 1)[0]
+body = tex.split(r"\section{Introduction}", 1)[1]
+body = re.split(r"\\section\*\{(?:Acknowledgements|Data availability)\}", body, maxsplit=1)[0]
 body = re.sub(r"\\begin\{(table|figure)\*?\}.*?\\end\{\1\*?\}", " ", body, flags=re.S)
 body = re.sub(r"\\cite[a-z]*\*?(?:\[[^\]]*\])*\{([^}]*)\}",
               lambda m: " ".join(["CITE CITE"] * len(m.group(1).split(","))), body)
