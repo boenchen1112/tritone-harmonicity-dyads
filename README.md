@@ -128,4 +128,4 @@ See `LICENSE` for the full text.
 ## Citation
 
 See `CITATION.cff`. Code: <https://github.com/boenchen1112/tritone-harmonicity-dyads>, release `v1.0-submission`, archived at
-[ZENODO DOI].
+<https://doi.org/10.5281/zenodo.23272654>.
