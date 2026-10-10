@@ -1,0 +1,600 @@
+{
+  "bowling2018": {
+    "n": 298,
+    "raw": {
+      "r2_covariates": 0.0,
+      "r2_full": 0.6738,
+      "alone_over_cov": {
+        "interference": 0.508,
+        "harmonicity": 0.3846,
+        "familiarity": 0.5212
+      },
+      "unique": {
+        "interference": {
+          "delta_r2": 0.049,
+          "F": 44.1812,
+          "p": 0.0
+        },
+        "harmonicity": {
+          "delta_r2": 0.0096,
+          "F": 8.6242,
+          "p": 0.0036
+        },
+        "familiarity": {
+          "delta_r2": 0.1468,
+          "F": 132.3357,
+          "p": 0.0
+        }
+      },
+      "boot_ci_unique": {
+        "interference": [
+          0.026,
+          0.0804
+        ],
+        "harmonicity": [
+          0.0008,
+          0.0281
+        ],
+        "familiarity": [
+          0.0964,
+          0.2042
+        ]
+      },
+      "model_partial_r": {
+        "har_19_composite": 0.8014,
+        "stolz_15_periodicity": 0.7395,
+        "har_19_corpus": 0.722,
+        "hutch_78_roughness": 0.7128,
+        "huron_94_dyadic": 0.6851,
+        "jl_12_tonal": 0.6338,
+        "har_18_harmonicity": 0.6202,
+        "parn_88_root_ambig": 0.5975,
+        "parn_94_pure": 0.5811,
+        "milne_13_harmonicity": 0.5596,
+        "parn_94_complex": 0.5034,
+        "bowl_18_min_freq_dist": 0.4653,
+        "parn_94_mult": 0.4359,
+        "seth_93_roughness": 0.3925,
+        "vass_01_roughness": 0.3892
+      },
+      "model_rank": {
+        "har_19_composite": 1,
+        "stolz_15_periodicity": 2,
+        "har_19_corpus": 3,
+        "hutch_78_roughness": 4,
+        "huron_94_dyadic": 5,
+        "jl_12_tonal": 6,
+        "har_18_harmonicity": 7,
+        "parn_88_root_ambig": 8,
+        "parn_94_pure": 9,
+        "milne_13_harmonicity": 10,
+        "parn_94_complex": 11,
+        "bowl_18_min_freq_dist": 12,
+        "parn_94_mult": 13,
+        "seth_93_roughness": 14,
+        "vass_01_roughness": 15
+      }
+    },
+    "size": {
+      "r2_covariates": 0.0201,
+      "r2_full": 0.7379,
+      "alone_over_cov": {
+        "interference": 0.5675,
+        "harmonicity": 0.4647,
+        "familiarity": 0.5064
+      },
+      "unique": {
+        "interference": {
+          "delta_r2": 0.0751,
+          "F": 83.6348,
+          "p": 0.0
+        },
+        "harmonicity": {
+          "delta_r2": 0.0374,
+          "F": 41.6291,
+          "p": 0.0
+        },
+        "familiarity": {
+          "delta_r2": 0.0799,
+          "F": 89.0457,
+          "p": 0.0
+        }
+      },
+      "boot_ci_unique": {
+        "interference": [
+          0.0451,
+          0.1086
+        ],
+        "harmonicity": [
+          0.0167,
+          0.065
+        ],
+        "familiarity": [
+          0.0429,
+          0.1217
+        ]
+      },
+      "model_partial_r": {
+        "har_19_composite": 0.8555,
+        "stolz_15_periodicity": 0.7942,
+        "hutch_78_roughness": 0.761,
+        "har_19_corpus": 0.7189,
+        "huron_94_dyadic": 0.6918,
+        "har_18_harmonicity": 0.6887,
+        "parn_94_pure": 0.6478,
+        "jl_12_tonal": 0.6282,
+        "parn_88_root_ambig": 0.6234,
+        "milne_13_harmonicity": 0.5671,
+        "parn_94_complex": 0.5565,
+        "seth_93_roughness": 0.5207,
+        "bowl_18_min_freq_dist": 0.5144,
+        "vass_01_roughness": 0.4552,
+        "parn_94_mult": 0.4403
+      },
+      "model_rank": {
+        "har_19_composite": 1,
+        "stolz_15_periodicity": 2,
+        "hutch_78_roughness": 3,
+        "har_19_corpus": 4,
+        "huron_94_dyadic": 5,
+        "har_18_harmonicity": 6,
+        "parn_94_pure": 7,
+        "jl_12_tonal": 8,
+        "parn_88_root_ambig": 9,
+        "milne_13_harmonicity": 10,
+        "parn_94_complex": 11,
+        "seth_93_roughness": 12,
+        "bowl_18_min_freq_dist": 13,
+        "vass_01_roughness": 14,
+        "parn_94_mult": 15
+      }
+    },
+    "size+reg": {
+      "r2_covariates": 0.0504,
+      "r2_full": 0.7486,
+      "alone_over_cov": {
+        "interference": 0.5652,
+        "harmonicity": 0.4358,
+        "familiarity": 0.4946
+      },
+      "unique": {
+        "interference": {
+          "delta_r2": 0.0854,
+          "F": 98.8728,
+          "p": 0.0
+        },
+        "harmonicity": {
+          "delta_r2": 0.0417,
+          "F": 48.2095,
+          "p": 0.0
+        },
+        "familiarity": {
+          "delta_r2": 0.058,
+          "F": 67.1717,
+          "p": 0.0
+        }
+      },
+      "boot_ci_unique": {
+        "interference": [
+          0.053,
+          0.1218
+        ],
+        "harmonicity": [
+          0.0192,
+          0.0676
+        ],
+        "familiarity": [
+          0.0303,
+          0.0907
+        ]
+      },
+      "model_partial_r": {
+        "har_19_composite": 0.8566,
+        "stolz_15_periodicity": 0.7965,
+        "hutch_78_roughness": 0.7715,
+        "har_19_corpus": 0.7217,
+        "huron_94_dyadic": 0.7063,
+        "har_18_harmonicity": 0.6774,
+        "parn_94_pure": 0.6755,
+        "jl_12_tonal": 0.6251,
+        "parn_88_root_ambig": 0.608,
+        "milne_13_harmonicity": 0.5507,
+        "seth_93_roughness": 0.5404,
+        "parn_94_complex": 0.5377,
+        "bowl_18_min_freq_dist": 0.4953,
+        "vass_01_roughness": 0.4775,
+        "parn_94_mult": 0.4282
+      },
+      "model_rank": {
+        "har_19_composite": 1,
+        "stolz_15_periodicity": 2,
+        "hutch_78_roughness": 3,
+        "har_19_corpus": 4,
+        "huron_94_dyadic": 5,
+        "har_18_harmonicity": 6,
+        "parn_94_pure": 7,
+        "jl_12_tonal": 8,
+        "parn_88_root_ambig": 9,
+        "milne_13_harmonicity": 10,
+        "seth_93_roughness": 11,
+        "parn_94_complex": 12,
+        "bowl_18_min_freq_dist": 13,
+        "vass_01_roughness": 14,
+        "parn_94_mult": 15
+      }
+    },
+    "size+transp": {
+      "r2_covariates": 0.0201,
+      "r2_full": 0.7365,
+      "alone_over_cov": {
+        "interference": 0.5528,
+        "harmonicity": 0.4647,
+        "familiarity": 0.5064
+      },
+      "unique": {
+        "interference": {
+          "delta_r2": 0.0737,
+          "F": 81.6998,
+          "p": 0.0
+        },
+        "harmonicity": {
+          "delta_r2": 0.0426,
+          "F": 47.1631,
+          "p": 0.0
+        },
+        "familiarity": {
+          "delta_r2": 0.0817,
+          "F": 90.5067,
+          "p": 0.0
+        }
+      },
+      "boot_ci_unique": {
+        "interference": [
+          0.0456,
+          0.1089
+        ],
+        "harmonicity": [
+          0.0201,
+          0.0722
+        ],
+        "familiarity": [
+          0.0455,
+          0.1238
+        ]
+      },
+      "model_partial_r": {
+        "har_19_composite": 0.8548,
+        "stolz_15_periodicity": 0.7942,
+        "hutch_78_roughness": 0.7511,
+        "har_19_corpus": 0.7189,
+        "huron_94_dyadic": 0.6918,
+        "har_18_harmonicity": 0.6887,
+        "parn_94_pure": 0.6471,
+        "jl_12_tonal": 0.6282,
+        "parn_88_root_ambig": 0.6234,
+        "parn_94_complex": 0.5991,
+        "milne_13_harmonicity": 0.5671,
+        "seth_93_roughness": 0.5402,
+        "bowl_18_min_freq_dist": 0.488,
+        "vass_01_roughness": 0.4532,
+        "parn_94_mult": 0.4181
+      },
+      "model_rank": {
+        "har_19_composite": 1,
+        "stolz_15_periodicity": 2,
+        "hutch_78_roughness": 3,
+        "har_19_corpus": 4,
+        "huron_94_dyadic": 5,
+        "har_18_harmonicity": 6,
+        "parn_94_pure": 7,
+        "jl_12_tonal": 8,
+        "parn_88_root_ambig": 9,
+        "parn_94_complex": 10,
+        "milne_13_harmonicity": 11,
+        "seth_93_roughness": 12,
+        "bowl_18_min_freq_dist": 13,
+        "vass_01_roughness": 14,
+        "parn_94_mult": 15
+      }
+    }
+  },
+  "johnson-laird2012": {
+    "n": 103,
+    "raw": {
+      "r2_covariates": 0.0,
+      "r2_full": 0.4143,
+      "alone_over_cov": {
+        "interference": 0.1932,
+        "harmonicity": 0.2461,
+        "familiarity": 0.3229
+      },
+      "unique": {
+        "interference": {
+          "delta_r2": 0.0054,
+          "F": 0.9057,
+          "p": 0.3436
+        },
+        "harmonicity": {
+          "delta_r2": 0.0421,
+          "F": 7.1152,
+          "p": 0.0089
+        },
+        "familiarity": {
+          "delta_r2": 0.1405,
+          "F": 23.7448,
+          "p": 0.0
+        }
+      },
+      "boot_ci_unique": {
+        "interference": [
+          0.0,
+          0.0513
+        ],
+        "harmonicity": [
+          0.0092,
+          0.1014
+        ],
+        "familiarity": [
+          0.0464,
+          0.263
+        ]
+      },
+      "model_partial_r": {
+        "stolz_15_periodicity": 0.723,
+        "jl_12_tonal": 0.7186,
+        "huron_94_dyadic": 0.6796,
+        "har_19_composite": 0.6284,
+        "har_19_corpus": 0.5683,
+        "har_18_harmonicity": 0.4961,
+        "milne_13_harmonicity": 0.4849,
+        "hutch_78_roughness": 0.4395,
+        "parn_88_root_ambig": 0.382,
+        "parn_94_pure": 0.2388,
+        "parn_94_complex": 0.1873,
+        "parn_94_mult": 0.1762,
+        "seth_93_roughness": 0.0648,
+        "bowl_18_min_freq_dist": 0.0425,
+        "vass_01_roughness": 0.042
+      },
+      "model_rank": {
+        "stolz_15_periodicity": 1,
+        "jl_12_tonal": 2,
+        "huron_94_dyadic": 3,
+        "har_19_composite": 4,
+        "har_19_corpus": 5,
+        "har_18_harmonicity": 6,
+        "milne_13_harmonicity": 7,
+        "hutch_78_roughness": 8,
+        "parn_88_root_ambig": 9,
+        "parn_94_pure": 10,
+        "parn_94_complex": 11,
+        "parn_94_mult": 12,
+        "seth_93_roughness": 13,
+        "bowl_18_min_freq_dist": 14,
+        "vass_01_roughness": 15
+      }
+    },
+    "size": {
+      "r2_covariates": 0.0002,
+      "r2_full": 0.4996,
+      "alone_over_cov": {
+        "interference": 0.2803,
+        "harmonicity": 0.3769,
+        "familiarity": 0.3227
+      },
+      "unique": {
+        "interference": {
+          "delta_r2": 0.0331,
+          "F": 6.4743,
+          "p": 0.0125
+        },
+        "harmonicity": {
+          "delta_r2": 0.0995,
+          "F": 19.4926,
+          "p": 0.0
+        },
+        "familiarity": {
+          "delta_r2": 0.0449,
+          "F": 8.7999,
+          "p": 0.0038
+        }
+      },
+      "boot_ci_unique": {
+        "interference": [
+          0.0013,
+          0.0951
+        ],
+        "harmonicity": [
+          0.0393,
+          0.1801
+        ],
+        "familiarity": [
+          0.0042,
+          0.1172
+        ]
+      },
+      "model_partial_r": {
+        "stolz_15_periodicity": 0.7829,
+        "jl_12_tonal": 0.7267,
+        "har_19_composite": 0.6938,
+        "huron_94_dyadic": 0.6818,
+        "har_18_harmonicity": 0.614,
+        "har_19_corpus": 0.5681,
+        "milne_13_harmonicity": 0.5434,
+        "hutch_78_roughness": 0.5295,
+        "parn_88_root_ambig": 0.454,
+        "parn_94_pure": 0.313,
+        "parn_94_complex": 0.2887,
+        "parn_94_mult": 0.1796,
+        "seth_93_roughness": 0.1706,
+        "vass_01_roughness": 0.0869,
+        "bowl_18_min_freq_dist": 0.0573
+      },
+      "model_rank": {
+        "stolz_15_periodicity": 1,
+        "jl_12_tonal": 2,
+        "har_19_composite": 3,
+        "huron_94_dyadic": 4,
+        "har_18_harmonicity": 5,
+        "har_19_corpus": 6,
+        "milne_13_harmonicity": 7,
+        "hutch_78_roughness": 8,
+        "parn_88_root_ambig": 9,
+        "parn_94_pure": 10,
+        "parn_94_complex": 11,
+        "parn_94_mult": 12,
+        "seth_93_roughness": 13,
+        "vass_01_roughness": 14,
+        "bowl_18_min_freq_dist": 15
+      }
+    },
+    "size+reg": {
+      "r2_covariates": 0.0688,
+      "r2_full": 0.5163,
+      "alone_over_cov": {
+        "interference": 0.233,
+        "harmonicity": 0.36,
+        "familiarity": 0.2688
+      },
+      "unique": {
+        "interference": {
+          "delta_r2": 0.026,
+          "F": 5.2087,
+          "p": 0.0247
+        },
+        "harmonicity": {
+          "delta_r2": 0.1082,
+          "F": 21.7011,
+          "p": 0.0
+        },
+        "familiarity": {
+          "delta_r2": 0.0332,
+          "F": 6.6549,
+          "p": 0.0114
+        }
+      },
+      "boot_ci_unique": {
+        "interference": [
+          0.0004,
+          0.0898
+        ],
+        "harmonicity": [
+          0.0436,
+          0.1858
+        ],
+        "familiarity": [
+          0.0019,
+          0.0897
+        ]
+      },
+      "model_partial_r": {
+        "stolz_15_periodicity": 0.7653,
+        "jl_12_tonal": 0.7314,
+        "huron_94_dyadic": 0.6764,
+        "har_19_composite": 0.6739,
+        "har_18_harmonicity": 0.6217,
+        "milne_13_harmonicity": 0.5645,
+        "har_19_corpus": 0.5373,
+        "parn_88_root_ambig": 0.5099,
+        "hutch_78_roughness": 0.5002,
+        "parn_94_pure": 0.2612,
+        "parn_94_complex": 0.2439,
+        "seth_93_roughness": 0.1719,
+        "parn_94_mult": 0.151,
+        "vass_01_roughness": 0.0258,
+        "bowl_18_min_freq_dist": -0.0171
+      },
+      "model_rank": {
+        "stolz_15_periodicity": 1,
+        "jl_12_tonal": 2,
+        "huron_94_dyadic": 3,
+        "har_19_composite": 4,
+        "har_18_harmonicity": 5,
+        "milne_13_harmonicity": 6,
+        "har_19_corpus": 7,
+        "parn_88_root_ambig": 8,
+        "hutch_78_roughness": 9,
+        "parn_94_pure": 10,
+        "parn_94_complex": 11,
+        "seth_93_roughness": 12,
+        "parn_94_mult": 13,
+        "vass_01_roughness": 14,
+        "bowl_18_min_freq_dist": 15
+      }
+    },
+    "size+transp": {
+      "r2_covariates": 0.0002,
+      "r2_full": 0.534,
+      "alone_over_cov": {
+        "interference": 0.3523,
+        "harmonicity": 0.3769,
+        "familiarity": 0.3227
+      },
+      "unique": {
+        "interference": {
+          "delta_r2": 0.0675,
+          "F": 14.1853,
+          "p": 0.0003
+        },
+        "harmonicity": {
+          "delta_r2": 0.0905,
+          "F": 19.024,
+          "p": 0.0
+        },
+        "familiarity": {
+          "delta_r2": 0.031,
+          "F": 6.5168,
+          "p": 0.0122
+        }
+      },
+      "boot_ci_unique": {
+        "interference": [
+          0.0195,
+          0.1433
+        ],
+        "harmonicity": [
+          0.0413,
+          0.168
+        ],
+        "familiarity": [
+          0.0012,
+          0.0877
+        ]
+      },
+      "model_partial_r": {
+        "stolz_15_periodicity": 0.7829,
+        "jl_12_tonal": 0.7267,
+        "har_19_composite": 0.7163,
+        "huron_94_dyadic": 0.6818,
+        "har_18_harmonicity": 0.614,
+        "hutch_78_roughness": 0.5936,
+        "har_19_corpus": 0.5681,
+        "milne_13_harmonicity": 0.5434,
+        "parn_94_complex": 0.5227,
+        "parn_88_root_ambig": 0.454,
+        "parn_94_pure": 0.4325,
+        "seth_93_roughness": 0.4282,
+        "vass_01_roughness": 0.2215,
+        "parn_94_mult": 0.1404,
+        "bowl_18_min_freq_dist": 0.0751
+      },
+      "model_rank": {
+        "stolz_15_periodicity": 1,
+        "jl_12_tonal": 2,
+        "har_19_composite": 3,
+        "huron_94_dyadic": 4,
+        "har_18_harmonicity": 5,
+        "hutch_78_roughness": 6,
+        "har_19_corpus": 7,
+        "milne_13_harmonicity": 8,
+        "parn_94_complex": 9,
+        "parn_88_root_ambig": 10,
+        "parn_94_pure": 11,
+        "seth_93_roughness": 12,
+        "vass_01_roughness": 13,
+        "parn_94_mult": 14,
+        "bowl_18_min_freq_dist": 15
+      }
+    }
+  }
+}

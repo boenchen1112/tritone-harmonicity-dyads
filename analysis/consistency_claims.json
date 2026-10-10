@@ -1,0 +1,10 @@
+{
+  "primGap": {"json": "multiplicity.json", "path": ["primary", "est"], "fmt": "z"},
+  "primTau": {"json": "multiplicity.json", "path": ["primary", "tau"], "fmt": "r2"},
+  "primItwo": {"json": "multiplicity.json", "path": ["primary", "I2"], "fmt": "pct0"},
+  "rpfGapTw": {"json": "residual_profile_re.json", "path": ["pooled_harm6", "HK+H20", "gap", "est"], "fmt": "z", "part": "est"},
+  "rpfSixTw": {"json": "residual_profile_re.json", "path": ["pooled_harm6", "HK+H20", "r6", "est"], "fmt": "z", "part": "est"},
+  "rpfEightTw": {"json": "residual_profile_re.json", "path": ["pooled_harm6", "HK+H20", "r8", "est"], "fmt": "z", "part": "est"},
+  "rpfMsixConsTw": {"json": "residual_profile_re.json", "path": ["pooled_harm6", "HK+H20", "m6_minus_cons", "est"], "fmt": "z", "part": "est"},
+  "rpfTTOtherTw": {"json": "residual_profile_re.json", "path": ["pooled_harm6", "HK+H20", "tt_minus_other", "est"], "fmt": "z", "part": "est"}
+}

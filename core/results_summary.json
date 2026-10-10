@@ -1,0 +1,582 @@
+{
+  "instrument_comparison": [
+    {
+      "timbre": "idealized (7 harm, rolloff 0.9)",
+      "model": "Sethares",
+      "tritone": 0.5324,
+      "m6": 0.4917,
+      "tritone_gt_m6": true,
+      "gap_pct": 8.3
+    },
+    {
+      "timbre": "idealized (7 harm, rolloff 0.9)",
+      "model": "Sethares-min",
+      "tritone": 0.5106,
+      "m6": 0.4589,
+      "tritone_gt_m6": true,
+      "gap_pct": 11.3
+    },
+    {
+      "timbre": "idealized (7 harm, rolloff 0.9)",
+      "model": "Vassilakis",
+      "tritone": 0.4419,
+      "m6": 0.3779,
+      "tritone_gt_m6": true,
+      "gap_pct": 16.9
+    },
+    {
+      "timbre": "idealized (7 harm, rolloff 0.9)",
+      "model": "Hutch-Knopoff",
+      "tritone": 0.4055,
+      "m6": 0.3877,
+      "tritone_gt_m6": true,
+      "gap_pct": 4.6
+    },
+    {
+      "timbre": "cello",
+      "model": "Sethares",
+      "tritone": 0.1619,
+      "m6": 0.0929,
+      "tritone_gt_m6": true,
+      "gap_pct": 74.3
+    },
+    {
+      "timbre": "cello",
+      "model": "Sethares-min",
+      "tritone": 0.3328,
+      "m6": 0.2562,
+      "tritone_gt_m6": true,
+      "gap_pct": 29.9
+    },
+    {
+      "timbre": "cello",
+      "model": "Vassilakis",
+      "tritone": 0.3209,
+      "m6": 0.2222,
+      "tritone_gt_m6": true,
+      "gap_pct": 44.5
+    },
+    {
+      "timbre": "cello",
+      "model": "Hutch-Knopoff",
+      "tritone": 0.0303,
+      "m6": 0.0308,
+      "tritone_gt_m6": false,
+      "gap_pct": -1.7
+    },
+    {
+      "timbre": "clarinet",
+      "model": "Sethares",
+      "tritone": 0.2246,
+      "m6": 0.2325,
+      "tritone_gt_m6": false,
+      "gap_pct": -3.4
+    },
+    {
+      "timbre": "clarinet",
+      "model": "Sethares-min",
+      "tritone": 0.3467,
+      "m6": 0.3245,
+      "tritone_gt_m6": true,
+      "gap_pct": 6.8
+    },
+    {
+      "timbre": "clarinet",
+      "model": "Vassilakis",
+      "tritone": 0.2705,
+      "m6": 0.1935,
+      "tritone_gt_m6": true,
+      "gap_pct": 39.8
+    },
+    {
+      "timbre": "clarinet",
+      "model": "Hutch-Knopoff",
+      "tritone": 0.0922,
+      "m6": 0.1724,
+      "tritone_gt_m6": false,
+      "gap_pct": -46.6
+    },
+    {
+      "timbre": "oboe",
+      "model": "Sethares",
+      "tritone": 0.3686,
+      "m6": 0.3076,
+      "tritone_gt_m6": true,
+      "gap_pct": 19.8
+    },
+    {
+      "timbre": "oboe",
+      "model": "Sethares-min",
+      "tritone": 0.4137,
+      "m6": 0.3505,
+      "tritone_gt_m6": true,
+      "gap_pct": 18.0
+    },
+    {
+      "timbre": "oboe",
+      "model": "Vassilakis",
+      "tritone": 0.2491,
+      "m6": 0.2172,
+      "tritone_gt_m6": true,
+      "gap_pct": 14.7
+    },
+    {
+      "timbre": "oboe",
+      "model": "Hutch-Knopoff",
+      "tritone": 0.2169,
+      "m6": 0.2131,
+      "tritone_gt_m6": true,
+      "gap_pct": 1.8
+    },
+    {
+      "timbre": "flute",
+      "model": "Sethares",
+      "tritone": 0.4347,
+      "m6": 0.5402,
+      "tritone_gt_m6": false,
+      "gap_pct": -19.5
+    },
+    {
+      "timbre": "flute",
+      "model": "Sethares-min",
+      "tritone": 0.4126,
+      "m6": 0.4706,
+      "tritone_gt_m6": false,
+      "gap_pct": -12.3
+    },
+    {
+      "timbre": "flute",
+      "model": "Vassilakis",
+      "tritone": 0.2525,
+      "m6": 0.2942,
+      "tritone_gt_m6": false,
+      "gap_pct": -14.2
+    },
+    {
+      "timbre": "flute",
+      "model": "Hutch-Knopoff",
+      "tritone": 0.333,
+      "m6": 0.4727,
+      "tritone_gt_m6": false,
+      "gap_pct": -29.5
+    },
+    {
+      "timbre": "bassoon",
+      "model": "Sethares",
+      "tritone": 0.1934,
+      "m6": 0.1447,
+      "tritone_gt_m6": true,
+      "gap_pct": 33.6
+    },
+    {
+      "timbre": "bassoon",
+      "model": "Sethares-min",
+      "tritone": 0.2017,
+      "m6": 0.1898,
+      "tritone_gt_m6": true,
+      "gap_pct": 6.3
+    },
+    {
+      "timbre": "bassoon",
+      "model": "Vassilakis",
+      "tritone": 0.2173,
+      "m6": 0.1943,
+      "tritone_gt_m6": true,
+      "gap_pct": 11.9
+    },
+    {
+      "timbre": "bassoon",
+      "model": "Hutch-Knopoff",
+      "tritone": 0.1101,
+      "m6": 0.071,
+      "tritone_gt_m6": true,
+      "gap_pct": 55.0
+    },
+    {
+      "timbre": "saxophone",
+      "model": "Sethares",
+      "tritone": 0.4819,
+      "m6": 0.4255,
+      "tritone_gt_m6": true,
+      "gap_pct": 13.3
+    },
+    {
+      "timbre": "saxophone",
+      "model": "Sethares-min",
+      "tritone": 0.5299,
+      "m6": 0.4655,
+      "tritone_gt_m6": true,
+      "gap_pct": 13.8
+    },
+    {
+      "timbre": "saxophone",
+      "model": "Vassilakis",
+      "tritone": 0.3795,
+      "m6": 0.2935,
+      "tritone_gt_m6": true,
+      "gap_pct": 29.3
+    },
+    {
+      "timbre": "saxophone",
+      "model": "Hutch-Knopoff",
+      "tritone": 0.3072,
+      "m6": 0.2724,
+      "tritone_gt_m6": true,
+      "gap_pct": 12.8
+    },
+    {
+      "timbre": "french-horn",
+      "model": "Sethares",
+      "tritone": 0.1814,
+      "m6": 0.1946,
+      "tritone_gt_m6": false,
+      "gap_pct": -6.8
+    },
+    {
+      "timbre": "french-horn",
+      "model": "Sethares-min",
+      "tritone": 0.215,
+      "m6": 0.1866,
+      "tritone_gt_m6": true,
+      "gap_pct": 15.2
+    },
+    {
+      "timbre": "french-horn",
+      "model": "Vassilakis",
+      "tritone": 0.1668,
+      "m6": 0.056,
+      "tritone_gt_m6": true,
+      "gap_pct": 198.1
+    },
+    {
+      "timbre": "french-horn",
+      "model": "Hutch-Knopoff",
+      "tritone": 0.144,
+      "m6": 0.1448,
+      "tritone_gt_m6": false,
+      "gap_pct": -0.6
+    },
+    {
+      "timbre": "piano",
+      "model": "Sethares",
+      "tritone": 0.2409,
+      "m6": 0.2064,
+      "tritone_gt_m6": true,
+      "gap_pct": 16.7
+    },
+    {
+      "timbre": "piano",
+      "model": "Sethares-min",
+      "tritone": 0.3999,
+      "m6": 0.3468,
+      "tritone_gt_m6": true,
+      "gap_pct": 15.3
+    },
+    {
+      "timbre": "piano",
+      "model": "Vassilakis",
+      "tritone": 0.2882,
+      "m6": 0.2348,
+      "tritone_gt_m6": true,
+      "gap_pct": 22.8
+    },
+    {
+      "timbre": "piano",
+      "model": "Hutch-Knopoff",
+      "tritone": 0.1073,
+      "m6": 0.1049,
+      "tritone_gt_m6": true,
+      "gap_pct": 2.3
+    }
+  ],
+  "register_test": [
+    {
+      "timbre": "clarinet D3 (low)",
+      "model": "Sethares",
+      "tritone": 0.5051,
+      "m6": 0.4497,
+      "tritone_gt_m6": true,
+      "gap_pct": 12.3
+    },
+    {
+      "timbre": "clarinet D3 (low)",
+      "model": "Sethares-min",
+      "tritone": 0.5504,
+      "m6": 0.492,
+      "tritone_gt_m6": true,
+      "gap_pct": 11.9
+    },
+    {
+      "timbre": "clarinet D3 (low)",
+      "model": "Vassilakis",
+      "tritone": 0.3832,
+      "m6": 0.3147,
+      "tritone_gt_m6": true,
+      "gap_pct": 21.8
+    },
+    {
+      "timbre": "clarinet D3 (low)",
+      "model": "Hutch-Knopoff",
+      "tritone": 0.1981,
+      "m6": 0.2861,
+      "tritone_gt_m6": false,
+      "gap_pct": -30.8
+    },
+    {
+      "timbre": "clarinet C4 (mid)",
+      "model": "Sethares",
+      "tritone": 0.2246,
+      "m6": 0.2325,
+      "tritone_gt_m6": false,
+      "gap_pct": -3.4
+    },
+    {
+      "timbre": "clarinet C4 (mid)",
+      "model": "Sethares-min",
+      "tritone": 0.3467,
+      "m6": 0.3245,
+      "tritone_gt_m6": true,
+      "gap_pct": 6.8
+    },
+    {
+      "timbre": "clarinet C4 (mid)",
+      "model": "Vassilakis",
+      "tritone": 0.2705,
+      "m6": 0.1935,
+      "tritone_gt_m6": true,
+      "gap_pct": 39.8
+    },
+    {
+      "timbre": "clarinet C4 (mid)",
+      "model": "Hutch-Knopoff",
+      "tritone": 0.0922,
+      "m6": 0.1724,
+      "tritone_gt_m6": false,
+      "gap_pct": -46.6
+    },
+    {
+      "timbre": "clarinet C5 (high)",
+      "model": "Sethares",
+      "tritone": 0.0221,
+      "m6": 0.0192,
+      "tritone_gt_m6": true,
+      "gap_pct": 15.3
+    },
+    {
+      "timbre": "clarinet C5 (high)",
+      "model": "Sethares-min",
+      "tritone": 0.078,
+      "m6": 0.075,
+      "tritone_gt_m6": true,
+      "gap_pct": 4.0
+    },
+    {
+      "timbre": "clarinet C5 (high)",
+      "model": "Vassilakis",
+      "tritone": 0.1457,
+      "m6": 0.0878,
+      "tritone_gt_m6": true,
+      "gap_pct": 65.9
+    },
+    {
+      "timbre": "clarinet C5 (high)",
+      "model": "Hutch-Knopoff",
+      "tritone": 0.0084,
+      "m6": 0.0147,
+      "tritone_gt_m6": false,
+      "gap_pct": -43.2
+    },
+    {
+      "timbre": "cello C3 (low)",
+      "model": "Sethares",
+      "tritone": 0.7139,
+      "m6": 0.6636,
+      "tritone_gt_m6": true,
+      "gap_pct": 7.6
+    },
+    {
+      "timbre": "cello C3 (low)",
+      "model": "Sethares-min",
+      "tritone": 0.678,
+      "m6": 0.6104,
+      "tritone_gt_m6": true,
+      "gap_pct": 11.1
+    },
+    {
+      "timbre": "cello C3 (low)",
+      "model": "Vassilakis",
+      "tritone": 0.4437,
+      "m6": 0.3898,
+      "tritone_gt_m6": true,
+      "gap_pct": 13.8
+    },
+    {
+      "timbre": "cello C3 (low)",
+      "model": "Hutch-Knopoff",
+      "tritone": 0.3985,
+      "m6": 0.3639,
+      "tritone_gt_m6": true,
+      "gap_pct": 9.5
+    },
+    {
+      "timbre": "cello C4 (mid)",
+      "model": "Sethares",
+      "tritone": 0.1619,
+      "m6": 0.0929,
+      "tritone_gt_m6": true,
+      "gap_pct": 74.3
+    },
+    {
+      "timbre": "cello C4 (mid)",
+      "model": "Sethares-min",
+      "tritone": 0.3328,
+      "m6": 0.2562,
+      "tritone_gt_m6": true,
+      "gap_pct": 29.9
+    },
+    {
+      "timbre": "cello C4 (mid)",
+      "model": "Vassilakis",
+      "tritone": 0.3209,
+      "m6": 0.2222,
+      "tritone_gt_m6": true,
+      "gap_pct": 44.5
+    },
+    {
+      "timbre": "cello C4 (mid)",
+      "model": "Hutch-Knopoff",
+      "tritone": 0.0303,
+      "m6": 0.0308,
+      "tritone_gt_m6": false,
+      "gap_pct": -1.7
+    },
+    {
+      "timbre": "cello C5 (high)",
+      "model": "Sethares",
+      "tritone": 0.1595,
+      "m6": 0.1714,
+      "tritone_gt_m6": false,
+      "gap_pct": -6.9
+    },
+    {
+      "timbre": "cello C5 (high)",
+      "model": "Sethares-min",
+      "tritone": 0.2208,
+      "m6": 0.2181,
+      "tritone_gt_m6": true,
+      "gap_pct": 1.3
+    },
+    {
+      "timbre": "cello C5 (high)",
+      "model": "Vassilakis",
+      "tritone": 0.2566,
+      "m6": 0.1746,
+      "tritone_gt_m6": true,
+      "gap_pct": 46.9
+    },
+    {
+      "timbre": "cello C5 (high)",
+      "model": "Hutch-Knopoff",
+      "tritone": 0.1308,
+      "m6": 0.1377,
+      "tritone_gt_m6": false,
+      "gap_pct": -5.0
+    },
+    {
+      "timbre": "oboe A#3 (low)",
+      "model": "Sethares",
+      "tritone": 0.4419,
+      "m6": 0.4861,
+      "tritone_gt_m6": false,
+      "gap_pct": -9.1
+    },
+    {
+      "timbre": "oboe A#3 (low)",
+      "model": "Sethares-min",
+      "tritone": 0.4271,
+      "m6": 0.447,
+      "tritone_gt_m6": false,
+      "gap_pct": -4.5
+    },
+    {
+      "timbre": "oboe A#3 (low)",
+      "model": "Vassilakis",
+      "tritone": 0.3152,
+      "m6": 0.2909,
+      "tritone_gt_m6": true,
+      "gap_pct": 8.3
+    },
+    {
+      "timbre": "oboe A#3 (low)",
+      "model": "Hutch-Knopoff",
+      "tritone": 0.3001,
+      "m6": 0.3828,
+      "tritone_gt_m6": false,
+      "gap_pct": -21.6
+    },
+    {
+      "timbre": "oboe C4 (mid)",
+      "model": "Sethares",
+      "tritone": 0.3686,
+      "m6": 0.3076,
+      "tritone_gt_m6": true,
+      "gap_pct": 19.8
+    },
+    {
+      "timbre": "oboe C4 (mid)",
+      "model": "Sethares-min",
+      "tritone": 0.4137,
+      "m6": 0.3505,
+      "tritone_gt_m6": true,
+      "gap_pct": 18.0
+    },
+    {
+      "timbre": "oboe C4 (mid)",
+      "model": "Vassilakis",
+      "tritone": 0.2491,
+      "m6": 0.2172,
+      "tritone_gt_m6": true,
+      "gap_pct": 14.7
+    },
+    {
+      "timbre": "oboe C4 (mid)",
+      "model": "Hutch-Knopoff",
+      "tritone": 0.2169,
+      "m6": 0.2131,
+      "tritone_gt_m6": true,
+      "gap_pct": 1.8
+    },
+    {
+      "timbre": "oboe C5 (high)",
+      "model": "Sethares",
+      "tritone": 0.2549,
+      "m6": 0.2147,
+      "tritone_gt_m6": true,
+      "gap_pct": 18.7
+    },
+    {
+      "timbre": "oboe C5 (high)",
+      "model": "Sethares-min",
+      "tritone": 0.2035,
+      "m6": 0.1652,
+      "tritone_gt_m6": true,
+      "gap_pct": 23.1
+    },
+    {
+      "timbre": "oboe C5 (high)",
+      "model": "Vassilakis",
+      "tritone": 0.045,
+      "m6": 0.0161,
+      "tritone_gt_m6": true,
+      "gap_pct": 179.7
+    },
+    {
+      "timbre": "oboe C5 (high)",
+      "model": "Hutch-Knopoff",
+      "tritone": 0.2135,
+      "m6": 0.1911,
+      "tritone_gt_m6": true,
+      "gap_pct": 11.7
+    }
+  ]
+}

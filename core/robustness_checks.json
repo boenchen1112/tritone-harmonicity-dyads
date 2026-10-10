@@ -1,0 +1,129 @@
+{
+  "a_pooling": {
+    "per_model": {
+      "Sethares": {
+        "pooled_raw": 0.4525212379425855,
+        "pooled_within_size_z": 0.6783036861413646,
+        "per_size": {
+          "2": 0.8647617139224483,
+          "3": 0.6756932943282549,
+          "4": 0.6689163658063293
+        }
+      },
+      "Sethares-min": {
+        "pooled_raw": 0.44929592194915074,
+        "pooled_within_size_z": 0.6131433818032321,
+        "per_size": {
+          "2": 0.8202130013757771,
+          "3": 0.61209589461101,
+          "4": 0.6021629214387602
+        }
+      },
+      "Vassilakis": {
+        "pooled_raw": 0.45154105788017673,
+        "pooled_within_size_z": 0.5606971016219203,
+        "per_size": {
+          "2": 0.7414851872442777,
+          "3": 0.5586053163694256,
+          "4": 0.5514634688909948
+        }
+      },
+      "Hutch-Knopoff": {
+        "pooled_raw": 0.685747237314846,
+        "pooled_within_size_z": 0.7980699460671109,
+        "per_size": {
+          "2": 0.8731261913635194,
+          "3": 0.7979087468724565,
+          "4": 0.7940243288093395
+        }
+      }
+    },
+    "summary": {
+      "gap_pooled_raw": 0.23322599937226052,
+      "gap_within_size_z": 0.1197662599257463,
+      "gap_mean_per_size": 0.085229297662761,
+      "verdict": "ARTIFACT: the pooled margin is inflated by mixing chord sizes; report the within-subset margin instead"
+    }
+  },
+  "b_cutoff_sensitivity": {
+    "gaps_pct": {
+      "clarinet_D3": {
+        "1.2": -30.8,
+        "1.5": -29.0,
+        "2.0": -29.1,
+        "None": -29.1
+      },
+      "clarinet_C4": {
+        "1.2": -46.6,
+        "1.5": -45.6,
+        "2.0": -45.6,
+        "None": -45.6
+      },
+      "clarinet_C5": {
+        "1.2": -43.2,
+        "1.5": -43.1,
+        "2.0": -42.5,
+        "None": -42.5
+      },
+      "cello_C3": {
+        "1.2": 9.5,
+        "1.5": 10.1,
+        "2.0": 10.1,
+        "None": 10.0
+      },
+      "cello_C4": {
+        "1.2": -1.7,
+        "1.5": 3.7,
+        "2.0": 4.0,
+        "None": 3.8
+      },
+      "cello_C5": {
+        "1.2": -5.0,
+        "1.5": -5.6,
+        "2.0": -5.6,
+        "None": -5.6
+      },
+      "oboe_As3": {
+        "1.2": -21.6,
+        "1.5": -20.8,
+        "2.0": -20.8,
+        "None": -20.8
+      },
+      "oboe_C4": {
+        "1.2": 1.8,
+        "1.5": 2.2,
+        "2.0": 2.2,
+        "None": 2.2
+      },
+      "oboe_C5": {
+        "1.2": 11.7,
+        "1.5": 11.7,
+        "2.0": 11.6,
+        "None": 11.6
+      }
+    },
+    "summary": {
+      "clarinet_all_three_flip": {
+        "1.2": true,
+        "1.5": true,
+        "2.0": true,
+        "None": true
+      },
+      "verdict": "ROBUST: the flip does not depend on the cutoff constant"
+    }
+  },
+  "c_aggregate_claims": {
+    "hk_spearman_wins": [
+      8,
+      9
+    ],
+    "hk_pearson_wins": [
+      111,
+      126
+    ],
+    "vassilakis_weakest": [
+      78,
+      126
+    ]
+  }
+}

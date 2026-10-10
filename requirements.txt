@@ -1,0 +1,13 @@
+# Python 3.14.6 (versions used for the reported results)
+numpy==2.4.6
+scipy==1.18.0
+matplotlib==3.11.1
+pymupdf==1.28.2        # analysis/pdf_word_count.py
+python-docx==1.2.0     # analysis/make_docx.py (optional Word version)
+pillow==12.3.0         # analysis/make_docx.py (figure images)
+pywin32==312; sys_platform == "win32"   # analysis/make_docx.py: PDF export through Microsoft Word
+soundfile==0.14.0      # core/extract_partials.py (only to regenerate the partials from recordings)
+librosa==0.11.0        # core/extract_partials.py (audio loading)
+# R 4.6.1 with incon 0.5.0 and hrep 0.16.1 (run_incon_transposed.py, scripts/export_bowl18_ji.R)
+# ffmpeg with libmp3lame (core/codec_ab.py, only to regenerate its JSON)
+# LaTeX: tectonic (any recent version) or pdflatex with xr-hyper, natbib, booktabs, hyperref

@@ -1,0 +1,184 @@
+{
+  "n": 298,
+  "r_et_ji": {},
+  "raw": {
+    "r2_covariates": 0.0,
+    "r2_full": 0.6923,
+    "alone_over_cov": {
+      "interference": 0.5169,
+      "harmonicity": 0.4452,
+      "familiarity": 0.5212
+    },
+    "unique": {
+      "interference": {
+        "delta_r2": 0.0376,
+        "F": 35.8986,
+        "p": 0.0
+      },
+      "harmonicity": {
+        "delta_r2": 0.0243,
+        "F": 23.2169,
+        "p": 0.0
+      },
+      "familiarity": {
+        "delta_r2": 0.1334,
+        "F": 127.4826,
+        "p": 0.0
+      }
+    },
+    "boot_ci_unique": {
+      "interference": [
+        0.0174,
+        0.0648
+      ],
+      "harmonicity": [
+        0.0084,
+        0.0504
+      ],
+      "familiarity": [
+        0.0859,
+        0.1844
+      ]
+    },
+    "partial_r": {
+      "interference": 0.7189,
+      "harmonicity": 0.6672,
+      "familiarity": 0.722
+    }
+  },
+  "size": {
+    "r2_covariates": 0.0201,
+    "r2_full": 0.7752,
+    "alone_over_cov": {
+      "interference": 0.5813,
+      "harmonicity": 0.5421,
+      "familiarity": 0.5064
+    },
+    "unique": {
+      "interference": {
+        "delta_r2": 0.0686,
+        "F": 89.1261,
+        "p": 0.0
+      },
+      "harmonicity": {
+        "delta_r2": 0.068,
+        "F": 88.3065,
+        "p": 0.0
+      },
+      "familiarity": {
+        "delta_r2": 0.061,
+        "F": 79.2645,
+        "p": 0.0
+      }
+    },
+    "boot_ci_unique": {
+      "interference": [
+        0.0401,
+        0.102
+      ],
+      "harmonicity": [
+        0.0411,
+        0.1009
+      ],
+      "familiarity": [
+        0.0319,
+        0.0946
+      ]
+    },
+    "partial_r": {
+      "interference": 0.7702,
+      "harmonicity": 0.7438,
+      "familiarity": 0.7189
+    }
+  },
+  "size+reg": {
+    "r2_covariates": 0.0504,
+    "r2_full": 0.7861,
+    "alone_over_cov": {
+      "interference": 0.5746,
+      "harmonicity": 0.5134,
+      "familiarity": 0.4946
+    },
+    "unique": {
+      "interference": {
+        "delta_r2": 0.0795,
+        "F": 108.1833,
+        "p": 0.0
+      },
+      "harmonicity": {
+        "delta_r2": 0.0737,
+        "F": 100.2122,
+        "p": 0.0
+      },
+      "familiarity": {
+        "delta_r2": 0.0434,
+        "F": 58.9983,
+        "p": 0.0
+      }
+    },
+    "boot_ci_unique": {
+      "interference": [
+        0.0482,
+        0.1168
+      ],
+      "harmonicity": [
+        0.0446,
+        0.1041
+      ],
+      "familiarity": [
+        0.0215,
+        0.0682
+      ]
+    },
+    "partial_r": {
+      "interference": 0.7779,
+      "harmonicity": 0.7353,
+      "familiarity": 0.7217
+    }
+  },
+  "size+transp": {
+    "r2_covariates": 0.0201,
+    "r2_full": 0.7752,
+    "alone_over_cov": {
+      "interference": 0.5689,
+      "harmonicity": 0.5421,
+      "familiarity": 0.5064
+    },
+    "unique": {
+      "interference": {
+        "delta_r2": 0.0687,
+        "F": 89.1746,
+        "p": 0.0
+      },
+      "harmonicity": {
+        "delta_r2": 0.071,
+        "F": 92.2822,
+        "p": 0.0
+      },
+      "familiarity": {
+        "delta_r2": 0.064,
+        "F": 83.1963,
+        "p": 0.0
+      }
+    },
+    "boot_ci_unique": {
+      "interference": [
+        0.0423,
+        0.1043
+      ],
+      "harmonicity": [
+        0.0424,
+        0.104
+      ],
+      "familiarity": [
+        0.0352,
+        0.0971
+      ]
+    },
+    "partial_r": {
+      "interference": 0.762,
+      "harmonicity": 0.7438,
+      "familiarity": 0.7189
+    }
+  }
+}
