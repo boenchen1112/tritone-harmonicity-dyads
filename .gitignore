@@ -12,3 +12,7 @@ __pycache__/
 # fetched or local-only inputs (scripts/fetch_data.sh; recordings are not redistributable)
 core/behavioral_data/
 core/audio_samples/
+
+# built from paper.tex / supplement.tex; the submitted PDFs are in submission/
+/paper.pdf
+/supplement.pdf
